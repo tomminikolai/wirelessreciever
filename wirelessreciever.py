@@ -13,4 +13,7 @@ while True:
         msg = clientsocket.recv(1024)
         print(msg)
         ser1.write(msg)
+        msg = clientsocket.recv(1024)
+        print(msg)
+        ser1.write(msg)
 
