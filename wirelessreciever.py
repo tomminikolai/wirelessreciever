@@ -10,4 +10,4 @@ while True:
     clientsocket.send(bytes("Welcome", "utf-8"))
     while True:
         msg = clientsocket.recv(1024)
-        print(msg)
+        print(msg.decode("utf-8"))
